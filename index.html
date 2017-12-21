@@ -1,10 +1,11 @@
 <main>
 	<header>
+		<link rel="stylesheet" type="text/css" href="style.css">
 		<nav>
 			<div class="logo">Greg's List</div>
 			<ul class="navlinks">
-				<li>Post</li>
-				<li>Account</li>
+				<li class="navlinks"><a href="">Post</a></li>
+				<li class="navlinks"><a href="">Account</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -14,33 +15,34 @@
 		<div class="search">
 			<label for="Search Jobs">Search Jobs</label>
 			<input type="" name="Search Jobs" placeholder="Search Software Jobs">
-			<img src="magnifying-glass.png" class="searchkey">
+			<a href="" class="button"><img src="magnifying-glass.png" class="searchkey"></a>
 		</div>
 
-		<div class="pagenav">
-			<ul class="pagenav">
-				<li>< prev</li>
-				<li> page num </li>
-				<li>next ></li>
+		<div class="pagenavbox">
+			<ul>
+				<a href="" class="pagelink"><<li class="pagenav">< prev</li></a>
+				<li class="pagenav"> page num </li>
+				<a href="" class="pagelink"><<li class="pagenav">next ></li></a>
 			</ul>
 		</div>
 
 		<div class="jobs">
-			<ul class="dateli">
-				<li>June 22</li>
-				<li>June 21</li>
-				<li>June 20</li>
+			<ul class="jobitem">
+				<li class="date">June 22</li>
+				<a href="" class="joblink"><li class="job">Technical Project Manager</li></a>
+				<li class="location">Midtown East</li>
 			</ul>
-			<ul class="jobli">
-				<li>Technical Project Manager</li>
-				<li>Frontend Developer</li>
-				<li>Senior Python Developer/Cofounder</li>
+			<ul class="jobitem">
+				<li class="date">June 21</li>
+				<a href="" class="pagelink"><li class="job">Frontend Developer</li></a>
+				<li class="location">SoHo</li>
 			</ul>
-			<ul class="locationli">
-				<li>Midtown East</li>
-				<li>SoHo</li>
-				<li>Flat Iron</li>
+			<ul class="jobitem">
+				<li class="date">June 20</li>
+				<a href="" class="pagelink"><li class="job">Senior Python Developer/Cofounder</li></a>
+				<li class="location">Fitzy</li>
 			</ul>
+			
 		</div>
 	</body>
 </main>

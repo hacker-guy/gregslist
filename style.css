@@ -1,0 +1,97 @@
+body {
+	padding-top: 100px;
+	padding-left: 40px;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav {
+	display: inline;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: #D3D3D3;
+	width: 100%;
+	text-align: right;
+	height: 7%;
+	vertical-align: middle;
+	font-size: 4vh;
+	padding-top: 10px;
+}
+
+.navlinks {
+	display: inline;
+	position: relative;
+	padding-right: 20px;
+	color: purple;
+}
+
+.logo {
+	display: inline;
+	position: absolute;
+	left: 10px;
+}
+
+input {
+	width: 600px;
+	height: 35px;
+	font-size: 20px;
+}
+
+ul {
+	padding: 0px;
+	 white-space: nowrap;
+}
+
+label {
+	display: block;
+}
+
+.searchkey {
+	height: 35px;
+	vertical-align: middle;
+}
+
+.pagenav {
+	display: inline-block;
+	padding: 5px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border: 1px solid #D3D3D3;
+	border-radius: 2px;
+	font-size: 20px;
+}
+
+.pagenavbox {
+	margin-top: 20px;
+	font-size: 0;
+}
+
+.jobs {
+	margin-top: 50px;
+}
+
+.date, .job, .location {
+	display: inline;
+	padding-right: 10px;
+	font-size: 20px;
+}
+
+.date {
+	color: gray;
+}
+
+.job {
+	color: blue;
+	text-decoration: underline;
+}
+
+.location {
+	color: black;
+	font-style: italic;
+}
+
+
+
